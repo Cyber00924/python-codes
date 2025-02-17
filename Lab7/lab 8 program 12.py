@@ -1,0 +1,5 @@
+my_tuple = (10, 20, 30, 40, 50)
+temp_list = list(my_tuple)
+temp_list.remove(30)
+my_tuple = tuple(temp_list)
+print(my_tuple)
